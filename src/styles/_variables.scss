@@ -1,0 +1,55 @@
+@use "sass:map";
+
+// Typography
+$font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+$font-heading: 'Outfit', sans-serif;
+
+// Transitions
+$transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+$transition-bounce: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+$transition-fast: all 0.15s ease;
+
+// Grid & Breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+// Border Radius
+$radius-sm: 6px;
+$radius-md: 12px;
+$radius-lg: 20px;
+$radius-full: 9999px;
+
+// Custom Scrollbar styling
+@mixin scrollbar {
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  &::-webkit-scrollbar-track {
+    background: var(--bg-primary);
+  }
+  &::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: $radius-full;
+    &:hover {
+      background: var(--text-muted);
+    }
+  }
+}
+
+// Media query helper
+@mixin respond-to($breakpoint) {
+  @if map.has-key($grid-breakpoints, $breakpoint) {
+    @media (max-width: map.get($grid-breakpoints, $breakpoint)) {
+      @content;
+    }
+  } @else {
+    @warn "Unknown breakpoint: #{$breakpoint}.";
+  }
+}
