@@ -81,7 +81,7 @@ export const cvData = {
       location: "Hafnarfjörður, Iceland",
       description: "Making an app using only AI",
       bullets: ["Using Ai to make an app for teachers",
-        "connecting MCP-protocol to Gemini, Claude and ChatGTP",
+        "connecting MCP to Gemini, Claude and ChatGTP",
               ],
       skills:["AI", "Gemini.google", "claude", "MCP-protocol" ]},
 
