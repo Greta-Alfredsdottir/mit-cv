@@ -76,6 +76,7 @@ export const cvData = {
   experience: [
     {
       company: "Tækniskólinn",
+      role: "AI researcher",
       period: "maj-juni 2026",
       location: "Hafnarfjörður, Iceland",
       description: "Making an app using only AI",
