@@ -8,6 +8,7 @@ const Hero = ({ personalInfo }) => {
   const roles = [
     "webdeveloper",
     "AI-specialist",
+    "MCP-protocol"
     
   ];
 
