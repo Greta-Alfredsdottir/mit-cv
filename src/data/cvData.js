@@ -77,7 +77,7 @@ export const cvData = {
     {
       company: "Tækniskólinn",
       period: "maj-juni 2026",
-      Location: "Hafnarfjörður, Iceland",
+      location: "Hafnarfjörður, Iceland",
       description: "Making an app using only AI",
       bullets: ["Using Ai to make an app for teachers"
 
