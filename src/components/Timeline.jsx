@@ -33,7 +33,7 @@ const Timeline = ({ education, experience }) => {
         
         <div className="section-header">
           <h2>My Journey</h2>
-          <p>A timeline of my professional experience and academic background at MIT.</p>
+          <p>A timeline of my professional experience and academic background at TechCollege.</p>
         </div>
 
         {/* Tab Filters */}

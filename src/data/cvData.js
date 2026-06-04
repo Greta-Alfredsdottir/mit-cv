@@ -76,13 +76,13 @@ export const cvData = {
   experience: [
     {
       company: "Tækniskólinn",
-      role: "internship as an AI researcher",
+      role: "internship as an AI specialist",
       period: "maj-juni 2026",
       location: "Hafnarfjörður, Iceland",
       description: "Making an app using only AI",
       bullets: ["Using Ai to make an app for teachers"
               ],
-      skills:["AI", "Gemini.google", "claude" ]},
+      skills:["AI", "Gemini.google", "claude", "MCP-protocal" ]},
 
     {
       company: "CSO Aalborg Business College",
