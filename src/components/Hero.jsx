@@ -6,9 +6,9 @@ const Hero = ({ personalInfo }) => {
   const [typedIndex, setTypedIndex] = useState(0);
   const [typedText, setTypedText] = useState('');
   const roles = [
-    "Software Engineer",
+    "webdeveloper",
     "AI Systems Researcher",
-    "Full-Stack Architect"
+    
   ];
 
   // Simple typing effect for the hero titles

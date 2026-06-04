@@ -22,7 +22,7 @@ export const cvData = {
   },
   education: [
     {
-      institution: "Self-Study / Academy",
+      institution: "TechCollege",
       degree: "Web Developer",
       period: "2025 - Present",
       location: "Aalborg, Denmark",
