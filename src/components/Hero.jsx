@@ -6,7 +6,7 @@ const Hero = ({ personalInfo }) => {
   const [typedIndex, setTypedIndex] = useState(0);
   const [typedText, setTypedText] = useState('');
   const roles = [
-    "webdeveloper",
+    "web developer",
     "AI-specialist",
     "MCP-protocol"
     
