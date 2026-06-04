@@ -81,8 +81,8 @@ export const cvData = {
       location: "Hafnarfjörður, Iceland",
       description: "Making an app using only AI",
       bullets: ["Using Ai to make an app for teachers"
-
-      ],},
+              ],
+      skills:["AI", "Gemini.google", "claude" ]},
 
     {
       company: "CSO Aalborg Business College",
