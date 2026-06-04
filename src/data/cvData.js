@@ -33,14 +33,14 @@ export const cvData = {
       degree: "Office Administration with Specialty (EUS-5)",
       period: "2023 - 2024",
       location: "Aalborg, Denmark",
-      description: "Office administration course specializing in finance, account reconciliation, bookkeeping, and budget management."
+      description:"Need an intership, so i can finish. Office administration course specializing in finance, account reconciliation, bookkeeping, and budget management."
     },
     {
       institution: "Techcollege Aalborg",
       degree: "IT Infrastructure Specialist (Datatekniker)",
       period: "2021 - 2023",
       location: "Aalborg, Denmark",
-      description: "Vocational education focused on network infrastructure, router/switch configurations, servers, and IT security."
+      description: "Need an intership, so i can finish. Vocational education focused on network infrastructure, router/switch configurations, servers, and IT security."
     },
     {
       institution: "Techcollege Aalborg",
@@ -236,6 +236,6 @@ export const cvData = {
     "IT Gadgets & Troubleshooting",
     "Finance & Account Reconciliations",
     "Icelandic Literature",
-    "Traveling & Roadtrips"
+    "Traveling"
   ]
 };

@@ -7,7 +7,7 @@ const Hero = ({ personalInfo }) => {
   const [typedText, setTypedText] = useState('');
   const roles = [
     "webdeveloper",
-    "AI Systems Researcher",
+    "AI-specialist",
     
   ];
 
