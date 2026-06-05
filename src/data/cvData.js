@@ -83,7 +83,7 @@ export const cvData = {
       bullets: ["Using Ai to make an app for teachers",
         "connecting MCP to Gemini, Claude and ChatGTP",
               ],
-      skills:["AI", "Gemini.google", "claude", "MCP-protocol" ]},
+      skills:["AI", "Gemini.google", "claude", "MCP-protocol", "ChatGPT", "Gemini CLI" ]},
 
     {
       company: "CSO Aalborg Business College",
