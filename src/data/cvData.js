@@ -186,7 +186,8 @@ export const cvData = {
           { name: "JavaScript (ES6+)", level: 85 },
           { name: "Frontend Development", level: 88 },
           { name: "SQL Databases", level: 80 },
-          { name: "Node.js & Postman", level: 75 }
+          { name: "Node.js & Postman", level: 75 },
+          { name: "Gemini CLI & Claude", level: 45 }
         ]
       },
       {
